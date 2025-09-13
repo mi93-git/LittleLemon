@@ -10,4 +10,8 @@ class Booking(models.Model):
 class Menu(models.Model):
     title = models.CharField(max_length=255)                # Title varchar(255)
     price = models.DecimalField(max_digits=10, decimal_places=2)  # Price decimal(10,2)
-    inventory = models.PositiveSmallIntegerField()          # Inventory int(5)             
+    inventory = models.PositiveSmallIntegerField()          # Inventory int(5)     
+
+    def __str__(self):
+        return f'{self.title} : {str(self.price)}'  
+    
