@@ -31,3 +31,11 @@ SQLite / MySQL
 Git & GitHub
 
 pytest / unittest for automated tests
+
+
+👨‍💻 Author
+
+[Marcel Ihme]
+Meta Backend Developer Certificate – Capstone Project
+📧 [marcel.ihme@gmail.com]
+🔗 [GitHub: mit93-git]
